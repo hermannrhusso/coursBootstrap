@@ -1,0 +1,85 @@
+.navbar{
+    background-color: greenyellow;
+}
+.carousel-item{
+    height: 100vh;
+}
+.progress{
+    margin-bottom: 25px;
+}
+.block-skills{
+    margin-top: 30px;
+}
+.skills-text{
+    margin: 50px;
+}
+ h1{  
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(12, 55, 129);
+}
+.contact-text{
+    margin: 50px;
+}
+.contact-form{
+    background-color: rgb(226, 43, 198);
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+.form-floating{
+    margin-bottom: 15px;
+}
+/* Mobile*/
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    body{
+        background-color: black;
+    }  
+   .card{
+       margin: 15px;
+       width: 300px;
+   } 
+}
+
+/*Tablette*/
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    body{
+        background-color: yellow;
+    }
+    
+    
+}
+
+/*Laptop*/
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    body{
+        background-color: red;
+    }
+    .card{
+        margin: 15px;
+    
+    } 
+    
+}
+
+/*Desktop*/
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    body{
+        background-color: aqua;
+    }
+    
+}
+
+/*Ecran large*/
+
+@media screen and (min-width:1201px) {
+    body{
+        background-color: blueviolet;
+    }
+    
+}
